@@ -1,0 +1,31 @@
+{
+  "name": "nextwarden",
+  "version": "1.0.0",
+  "description": "Transform data from Nextcloud Passwords to a Bitwarden compatible format.",
+  "main": "src/index.ts",
+  "repository": "https://github.com/Encode42/nextwarden",
+  "author": "Encode42",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "esno src/index.ts"
+  },
+  "dependencies": {
+    "csv-string": "^4.1.0",
+    "esno": "^0.14.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.1.4",
+    "eslint-plugin-jsdoc": "^39.2.1",
+    "eslint-plugin-jsonc": "^2.2.1",
+    "eslint-plugin-markdown": "^2.2.1",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-sonarjs": "^0.13.0",
+    "eslint-plugin-tsdoc": "^0.2.16",
+    "eslint-plugin-unicorn": "^42.0.0",
+    "typescript": "^4.6.3"
+  }
+}

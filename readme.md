@@ -4,7 +4,7 @@ Transform data from Nextcloud Passwords to a Bitwarden compatible format.
 This is a proof-of-concept, and may not function in the future.
 
 ### Running
-Ensure [Node.js](https://nodejs.org/en/) and [Yarn](https://yarnpkg.com/) are installed.
+Ensure [Node.js](https://nodejs.org/en/) and [Yarn](https://yarnpkg.com/getting-started/install) are installed.
 
 1. [Export](https://git.mdns.eu/nextcloud/passwords/-/wikis/Users/Export) your data from Nextcloud Passwords. Ensure the format is set to `Predefined CSV`, and only the `Passwords` option is ticked.
 2. `git clone` or download this repository and `cd` into it.
